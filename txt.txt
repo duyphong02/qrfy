@@ -1,0 +1,139 @@
+    <!-- <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#url" alt="" width="80" height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Website</h2>
+                                <p class="text-gray-500">Open a URL</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#pdf" alt="" width="80" height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">PDF</h2>
+                                <p class="text-gray-500">Show a PDF</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#link-list" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">List of links</h2>
+                                <p class="text-gray-500">Group links</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#images" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Images</h2>
+                                <p class="text-gray-500">Show an image gallery</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#video" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Video</h2>
+                                <p class="text-gray-500">Show a video</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#business" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Business</h2>
+                                <p class="text-gray-500">Share information about your business</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#vcard-plus" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">vCard Plus</h2>
+                                <p class="text-gray-500">Share contact details</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#menu" alt="" width="80" height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Menu</h2>
+                                <p class="text-gray-500">Display the menu of a restaurant or bar</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#app" alt="" width="80" height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Apps</h2>
+                                <p class="text-gray-500">Redirect to an app store</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#mp3" alt="" width="80" height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">MP3</h2>
+                                <p class="text-gray-500">Play an audio file</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#coupon" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Coupon</h2>
+                                <p class="text-gray-500">Share a coupon</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#feedback" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Feedback</h2>
+                                <p class="text-gray-500">Collect feedback and get rated</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#playlist" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Playlist</h2>
+                                <p class="text-gray-500">Share your own music</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#landing" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Landing page</h2>
+                                <p class="text-gray-500">Create your own page</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#event" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Event</h2>
+                                <p class="text-gray-500">Promote and share an event</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#barcode" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">2D Barcode</h2>
+                                <p class="text-gray-500">Supports GS1 standards</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#social" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Social Media</h2>
+                                <p class="text-gray-500">Share your social profiles</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg shadow flex items-center">
+                            <img src="https://qrfy.com/assets/qr-types-BbCrxh4l.svg#product" alt="" width="80"
+                                height="80">
+                            <div>
+                                <h2 class="text-lg font-medium">Product</h2>
+                                <p class="text-gray-500">Group information about your product</p>
+                            </div>
+                        </div> -->
