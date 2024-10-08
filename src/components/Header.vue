@@ -100,16 +100,31 @@
         </div>
         <div id="app" class="bg-gray-100 w-full ">
             <!-- Thanh riêng cho Type of QR code với màu trắng -->
-            <div class="mb-4 bg-white p-4 rounded-lg shadow w-full  ">
-                <div class="flex items-center mb-2">
-                    <div class="flex items-center justify-center w-8 h-8 bg-blue-500 text-white rounded-full">1</div>
-                    <span class="ml-2 text-lg font-medium">Type of QR code</span>
-                    <i class=" mx-2 text-gray-400"></i>
-                    <div class="flex items-center justify-center w-8 h-8 bg-gray-200 text-gray-500 rounded-full">2</div>
-                    <span class="ml-2 text-lg font-medium text-gray-500">Content</span>
-                    <i class=" mx-2 text-gray-400"></i>
-                    <div class="flex items-center justify-center w-8 h-8 bg-gray-200 text-gray-500 rounded-full">3</div>
-                    <span class="ml-2 text-lg font-medium text-gray-500">QR design</span>
+            <div class="mb-4 bg-white p-4 rounded-lg shadow w-full">
+                <div class="flex items-center mb-2 pl-3 w-[45%] lg:w-[30%] "
+                    style="border: 1px solid rgb(227, 227, 227);border-radius: 40px;">
+                    <div class="flex items-center justify-center w-8 h-8 p-3 bg-blue-500 text-white rounded-full">1</div>
+                    <div class="flex h-[40px] mr-4  justify-between ">
+                        <span class="ml-2 text-lg font-medium pt-1 hidden lg:block">Type of QR code</span>
+                        <svg style="color: rgb(217, 217, 217)" viewBox="0 0 18 39" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" class="css-itknvl-Connector-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.39251 0C3.62144 0.188345 3.8332 0.401077 4.02379 0.636277L16.9894 16.6363C18.3368 18.299 18.3368 20.701 16.9894 22.3637L4.02379 38.3637C3.8332 38.5989 3.62144 38.8117 3.39252 39H0.619339C1.6437 38.9985 2.61413 38.5319 3.26613 37.7273L16.2317 21.7273C17.2797 20.4341 17.2797 18.5659 16.2317 17.2727L3.26613 1.27266C2.61305 0.466746 1.64049 0 0.614258 0H3.39251Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-8 h-8 p-3 bg-gray-200 text-gray-500 rounded-full">2</div>
+                    <div class="flex h-[40px] mr-4 justify-between ">
+                        <span class="ml-2 text-lg font-medium text-gray-500 pt-1 hidden lg:block">Content</span>
+                        <svg style="color: rgb(217, 217, 217)" viewBox="0 0 18 39" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" class="css-itknvl-Connector-icon">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.39251 0C3.62144 0.188345 3.8332 0.401077 4.02379 0.636277L16.9894 16.6363C18.3368 18.299 18.3368 20.701 16.9894 22.3637L4.02379 38.3637C3.8332 38.5989 3.62144 38.8117 3.39252 39H0.619339C1.6437 38.9985 2.61413 38.5319 3.26613 37.7273L16.2317 21.7273C17.2797 20.4341 17.2797 18.5659 16.2317 17.2727L3.26613 1.27266C2.61305 0.466746 1.64049 0 0.614258 0H3.39251Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-8 h-8 p-3 lg bg-gray-200 text-gray-500 rounded-full">3</div>
+                    <span class="ml-2 text-lg font-medium text-gray-500 hidden lg:block">QR design</span>
                 </div>
             </div>
             <div class="flex w-full md:p-7">
@@ -120,9 +135,9 @@
 
                     <div class="flex flex-col items-center w-full md:grid md:grid-cols-2 gap-4 ">
                         <!-- Các phần tử khác không thay đổi -->
-                    
+
                         <div v-for="(item, index) in items" :key="index"
-                            class="bg-white  rounded-lg shadow flex items-center w-2/3 md:p-4 md:w-full ">
+                            class="bg-white  rounded-lg shadow flex items-center w-[90%] md:p-4 md:w-full ">
                             <img :src="item.imgSrc" alt="" width="80" height="80" />
                             <div>
                                 <h2 class="text-lg font-medium">{{ item.title }}</h2>
