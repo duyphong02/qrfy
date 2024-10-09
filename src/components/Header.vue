@@ -6,24 +6,6 @@
         <div id="app" class=" bg-white shadow-lg w-1/6 flex flex-col pb-[50px] h-screen hidden md:flex">
             <div class="flex items-center justify-between p-4 ">
                 <div class="text-blue-600 text-2xl font-bold">QRFY</div>
-                <svg fill="#bfbfbf" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 527.42 527.42"
-                    xml:space="preserve" stroke="#bfbfbf">
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                    <g id="SVGRepo_iconCarrier">
-                        <g>
-                            <g>
-                                <path
-                                    d="M4.925,271.773l263.77,216.474c6.591,5.288,9.593,3.137,6.707-4.807l-69.104-206.862 c-2.889-7.94-2.861-20.809,0.061-28.736l68.982-203.849c2.923-7.929-0.082-10.104-6.707-4.859L4.987,252.704 C-1.638,257.948-1.666,266.489,4.925,271.773z">
-                                </path>
-                                <path
-                                    d="M255.845,271.773l263.77,216.474c6.591,5.288,9.593,3.137,6.707-4.807l-69.104-206.862 c-2.889-7.94-2.861-20.809,0.061-28.736l68.981-203.849c2.923-7.929-0.082-10.104-6.707-4.859l-263.647,213.57 C249.282,257.948,249.254,266.489,255.845,271.773z">
-                                </path>
-                            </g>
-                        </g>
-                    </g>
-                </svg>
             </div>
             <div class="mt-4 ">
                 <div class="flex items-center p-4 bg-blue-50 text-blue-600">
@@ -67,7 +49,7 @@
                 </div>
                 <div class="flex items-center p-4 text-gray-400">
                     <div>
-                        <i class="fas fa-file-alt mr-2"></i>
+                        <i class="fas fa-file-alt mr-4"></i>
                     </div>
                     <span class="ml-1">Templates</span>
                 </div>
@@ -84,7 +66,7 @@
                     <span>My domains</span>
                 </div>
                 <div class="flex items-center p-4 text-gray-400">
-                    <i class="fas fa-credit-card mr-2"></i>
+                    <i class="fas fa-credit-card mr-4"></i>
                     <span>Plans and payments</span>
                 </div>
             </div>
@@ -100,8 +82,8 @@
         </div>
         <div id="app" class="bg-gray-100 w-full ">
             <!-- Thanh riêng cho Type of QR code với màu trắng -->
-            <div class="mb-4 bg-white p-4 rounded-lg shadow w-full">
-                <div class="flex items-center mb-2 pl-3 w-[45%] lg:w-[30%] "
+            <div class="mb-4 bg-white p-4 shadow w-full">
+                <div class="flex items-center  pl-3 w-[48%] lg:w-[35%] "
                     style="border: 1px solid rgb(227, 227, 227);border-radius: 40px;">
                     <div class="flex items-center justify-center w-8 h-8 p-3 bg-blue-500 text-white rounded-full">1</div>
                     <div class="flex h-[40px] mr-4  justify-between ">
@@ -128,7 +110,7 @@
                 </div>
             </div>
             <div class="flex w-full md:p-7">
-                <div class="overflow-auto h-[900px] w-full md:w-3/4">
+                <div class="overflow-auto  w-full lg:h-[700px] md:w-3/4 ">
                     <h1 class="text-2xl  font-bold mb-2">Dynamic QR <span
                             class="text-sm bg-green-100 text-green-700 px-2 py-1 rounded">WITH TRACKING</span></h1>
                     <p class="text-gray-600 mb-6">Update content in real time, without changing your code</p>

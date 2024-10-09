@@ -4,8 +4,10 @@ import HeaderHome  from './components/Header.vue'
 
 <template>
 
+<div class="h-screen">
   <HeaderHome></HeaderHome>
 
+</div>
 </template>
 
 
